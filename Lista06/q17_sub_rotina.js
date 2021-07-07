@@ -2,7 +2,7 @@ const input = require('prompt-sync')()
 
 function main(){
     const texto = input('Texto: ')
-    substr(texto, 1, 3)
+    substr(texto, 10, 20)
 
 }
 
