@@ -1,0 +1,25 @@
+1. O que é, e para que é?
+a. Pensamento Computacional
+
+R - Pensamento computacional pode ser definido como uma estratégia usada para desenhar soluções e solucionar
+problemas de maneira eficaz tendo a tecnologia como base.
+As atividades desenvolvidas nessa perspectiva têm como finalidade contribuir:
+na construção do pensamento lógico;
+na habilidade de reconhecimento de padrões;
+para o desenvolvimento do raciocínio por meio dos quatro pilares, que são: decomposição,  
+reconhecimento de padrões, abstração de um problema e algoritmos.
+
+b. Algoritmo
+
+R - Um algoritmo é uma sequência lógica, finita e definida de instruções que devem ser seguidas para resolver
+um problema ou executar uma tarefa.
+
+c. Programação
+
+R - A programação é um processo de escrita, testes e manutenção de programas de computadores. Esses programas, por sua vez,
+são compostos por conjuntos de instruções determinados pelo programador que descrevem tarefas a serem realizadas pela máquina e atendem diversas finalidades.
+
+d. Modularização com uso de Funções
+
+R- É dividir várias partes do sistema em partes menores que possuem tarefas específicas, ou seja, colocar estas partes menores em Funções para que sejam chamada
+por outras Funções quando precisar.
