@@ -13,14 +13,25 @@ function main(){
         let juros = saber_porcentagem(saldo, 1)
         let saldo_anterior = saldo
         saldo = saldo + juros - valor_da_pacela
-
-        console.log('#### EXTRATO ####')
-        console.log(`Mês: ${mes}`)
-        console.log(`Pacerla fixa: R$ ${valor_da_pacela.toFixed(2)}`)
-        console.log(`Juros: R$ ${juros.toFixed(2)}`)
-        console.log(`Saldo Anterior: R$${saldo_anterior.toFixed(2)}`)
-        console.log(`Saldo Atual: R$${saldo.toFixed(2)}`)
-        console.log('---------------------------')
+        
+        if(saldo > 0){
+            console.log('#### EXTRATO ####')
+            console.log(`Mês: ${mes}`)
+            console.log(`Pacerla fixa: R$ ${valor_da_pacela.toFixed(2)}`)
+            console.log(`Juros: R$ ${juros.toFixed(2)}`)
+            console.log(`Saldo Anterior: R$${saldo_anterior.toFixed(2)}`)
+            console.log(`Saldo Atual: R$${saldo.toFixed(2)}`)
+            console.log('---------------------------')
+        }else{
+            let ultima_parcela = valor_da_pacela + saldo
+            console.log('#### EXTRATO ####')
+            console.log(`Mês: ${mes}`)
+            console.log(`Pacerla fixa: R$ ${ultima_parcela.toFixed(2)}`)
+            console.log(`Juros: R$ ${juros.toFixed(2)}`)
+            console.log(`Saldo Anterior: R$${saldo_anterior.toFixed(2)}`)
+            console.log(`Saldo Atual: R$$ 0.00`)
+            console.log('---------------------------')
+        }
 
     }
 
