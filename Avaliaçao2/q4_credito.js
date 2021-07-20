@@ -24,7 +24,7 @@ function main(){
 
     }
 
-    console.log(`Será necessário ${mes-1} meses para quitar o saldo devedor`)
+    console.log(`Será necessário ${mes} meses para quitar o saldo devedor`)
 }
 
 function saber_porcentagem(valor, porcentagem){
